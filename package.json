@@ -1,0 +1,26 @@
+{
+  "name": "react-native-simple-sound",
+  "version": "1.0.0",
+  "description": "Start, stop, and pause a sound. iOS only. Derived from https://github.com/zmxv/react-native-sound",
+  "main": "simple_sound.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikehedman/react-native-simple-sound.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "sound",
+    "audio"
+  ],
+  "author": "Mike Hedman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikehedman/react-native-simple-sound/issues"
+  },
+  "homepage": "https://github.com/mikehedman/react-native-simple-sound"
+}
