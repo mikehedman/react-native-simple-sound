@@ -1,6 +1,7 @@
 # react-native-simple-sound
 
-React Native module for playing, pausing, and stopping sound clips
+React Native module for playing, pausing, and stopping sound clips.
+
 Derived from Derived from [react-native-sound](https://github.com/zmxv/react-native-sound), which allows multiple sound files to be played at once, but does not offer pause or stop.
 
 ## Installation
@@ -38,6 +39,6 @@ Sound.stop(); // Stop and reset the sound.
 - Sound.enable(true) must be called before playing any sound.
 - Sound.prepare(...) must be called before playing - preloads a sound file and prepares it for playback.
 - To change sounds, stop() the current sound and call prepare() with the new sound.
-- The module wraps AVAudioPlayer which supports aac, aiff, mp3, wav etc. The full list of supported formats can be found at https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/MultimediaPG/UsingAudio/UsingAudio.html
+- The module wraps AVAudioPlayer which supports aac, aiff, mp3, wav etc. The full list of supported formats can be found [here](https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/MultimediaPG/UsingAudio/UsingAudio.html).
 - The stop() function resets the sound back to the beginning, this is different from the standard behavior of AVAudioPlayer
 - Sound files must be in the bundle (in your app's main folder in Xcode)
