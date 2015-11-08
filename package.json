@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-sound",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Start, stop, and pause a sound. iOS only. Derived from https://github.com/zmxv/react-native-sound",
   "main": "simple_sound.js",
   "scripts": {
