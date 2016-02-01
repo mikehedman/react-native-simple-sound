@@ -2,7 +2,7 @@
 
 React Native module for playing, pausing, and stopping sound clips.
 
-Derived from Derived from [react-native-sound](https://github.com/zmxv/react-native-sound), which allows multiple sound files to be played at once, but does not offer pause or stop.
+Derived from [react-native-sound](https://github.com/zmxv/react-native-sound), which allows multiple sound files to be played at once, but does not offer pause or stop.
 
 ## Installation
 
